@@ -23,13 +23,6 @@ describe('empty spec', () => {
     }) ;
   });
 
-  it('should show error if data cannot be GET', () => {
-    cy.intercept('GET', 'http://localhost:3001/api/v1/reservations', {
-      statusCode: 500
-    })
-    // cy.get('.error').contains('h2', 'Could not find any reservations.')
-  })
-
   it('should track data in the input fields', () => {
     cy.get('input[name="name"]').type('Harold').should('have.value', 'Harold')
     cy.get('input[name="date"]').type('12/24').should('have.value', '12/24')
