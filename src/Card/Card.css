@@ -1,0 +1,7 @@
+.cards {
+    border: 5px solid teal;
+    background-color: white;
+    border-radius: 10px;
+    color: teal;
+    padding: 5px 15px 5px 15px;
+}

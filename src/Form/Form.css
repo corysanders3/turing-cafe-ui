@@ -1,0 +1,33 @@
+.resy-form {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.resy-form input {
+    height: 25px;
+    width: 180px;
+}
+
+.btn {
+    width: 200px;
+    height: 30px;
+    background-color: teal;
+    border-color: white;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    font-size: large;
+}
+
+.error {
+    color: white;
+    border: 5px solid teal;
+    background-color: white;
+    border-radius: 10px;
+    color: teal;
+    width: 400px;
+}
